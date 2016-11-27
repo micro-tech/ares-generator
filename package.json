@@ -1,19 +1,19 @@
 {
 	"name": "ares-generator",
 	"main": "./ares-generator.js",
-	"version": "0.3.4",
+	"version": "0.3.6",
 	"description": "Project-generation toolkit for the ares-ide EnyoJS IDE",
 	"keywords": ["ares-ide", "enyo"],
-	"homepage": "https://github.com/enyojs/ares-generator",
+	"homepage": "https://github.com/micro-tech/ares-generator",
 	"bugs": {
-		"url": "https://enyojs.atlassian.net/browse/ENYO"
+		"url": ""
 	},
 	"repository" : { 
 		"type" : "git",
-		"url" : "http://github.com/enyojs/ares-generator.git"
+		"url" : "git@github.com:micro-tech/ares-generator.git"
 	},
 	"engines": {
-		"node": "~0.10.0",
+		"node": ">=0.10.0",
 		"npm": ">=1.2.11"
 	},
 	"engineStrict": true,
