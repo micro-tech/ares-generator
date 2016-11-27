@@ -1,16 +1,16 @@
 {
 	"name": "ares-generator",
 	"main": "./ares-generator.js",
-	"version": "0.3.6",
+	"version": "0.3.4",
 	"description": "Project-generation toolkit for the ares-ide EnyoJS IDE",
 	"keywords": ["ares-ide", "enyo"],
-	"homepage": "https://github.com/micro-tech/ares-generator",
+	"homepage": "https://github.com/enyojs/ares-generator",
 	"bugs": {
-		"url": ""
+		"url": "https://enyojs.atlassian.net/browse/ENYO"
 	},
 	"repository" : { 
 		"type" : "git",
-		"url" : "git@github.com:micro-tech/ares-generator.git"
+		"url" : "http://github.com/enyojs/ares-generator.git"
 	},
 	"engines": {
 		"node": ">=0.10.0",
@@ -19,14 +19,14 @@
 	"engineStrict": true,
 	"os" : [ "darwin", "linux", "win32" ],
 	"dependencies": {
-		"extract-zip": "~1.0.3",
-		"async": "~0.2.9",
-		"graceful-fs": "~2.0.1",
-		"mkdirp": "~0.3.5",
-		"npmlog": "~0.0.4",
-		"request": "~2.26.0",
-		"rimraf": "~2.2.2",
-		"temp": "~0.6.0"
+		"extract-zip": "~1.5.0",
+		"async": "~2.1.4",
+		"graceful-fs": "~4.1.11",
+		"mkdirp": "~0.5.1",
+		"npmlog": "~4.0.1",
+		"request": "~2.79.0",
+		"rimraf": "~2.5.4",
+		"temp": "~0.8.3"
 	},
 	"bundledDependencies": [
 		"extract-zip",
